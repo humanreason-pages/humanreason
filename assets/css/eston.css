@@ -6793,7 +6793,7 @@ ul {
   bottom: 0;
   right: 0;
   opacity: .60;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 98.36%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 800%);
   z-index: -1;
 }
 
@@ -6801,7 +6801,7 @@ ul {
   position: relative;
   display: block;
   padding: 300px 0 100px;
-  z-index: 15;
+  z-index: 15;  
 }
 
 .page-header__inner p {
