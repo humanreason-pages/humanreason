@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Team Details || Humanreason || Humanreason Portal </title>
+    <title> Human Reason | Studio Produksi Kolektif </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -65,31 +65,29 @@
                     <div class="sidebar-info-contents">
                         <div class="content-inner">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="" /></a>
+                                <a href="index.html"><img src="assets/images/resources/HRLOGO.svg" alt="" /></a>
                             </div>
                             <div class="content-box">
-                                <h4>About Us</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut
-                                    labore et magna aliqua. Ut enim ad minim veniam laboris.</p>
+                                <h4>Direct Message</h4>
+                                <p>Jika ada hal yang perlu disampaikan, biarkan kami tahu yaaa^/^ langsung chat menggunakan form dibawah sajaaa ^/^.</p>
                             </div>
                             <div class="form-inner">
                                 <h4>Get a free quote</h4>
-                                <form action="assets/inc/sendemail.php" class="contact-form-validated"
-                                    novalidate="novalidate">
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder="Name" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" placeholder="Message..."></textarea>
-                                    </div>
-                                    <div class="form-group message-btn">
-                                        <button type="submit" class="thm-btn form-inner__btn">Submit Now</button>
-                                    </div>
-                                </form>
-                                <div class="result"></div>
+                               <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwYTZNrP5e7hCBjqVgkCeEJJVdD11KlFEW-9IIouJyjHgJ2b90jySMHlaxWPsIjwXRX/exec" method="post">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Message..."></textarea>
+                                </div>
+                                <div class="form-group message-btn">
+                                    <button type="submit" class="thm-btn form-inner__btn">Submit Now</button>
+                                </div>
+                            </form>
+                            <div class="result"></div>
                             </div>
                         </div>
                     </div>
@@ -102,94 +100,50 @@
 
 
     <div class="page-wrapper">
-        <header class="main-header-three">
-            <div class="main-header-three__top">
-                <div class="main-header-three__top-inner">
-                    <ul class="list-unstyled main-header-three__contact-info">
-                        <li><a href="mailto:info@webmail.com">info@webmail.com</a></li>
-                        <li><a href="tel:88899977700">888 999 777 00</a></li>
-                    </ul>
-                    <p class="main-header-three__top-text">Best Film Production In <span>NYC</span></p>
-                    <div class="main-header-three__social-box">
-                        <h4 class="main-header-three__social-title">Follow Us</h4>
-                        <div class="main-header-three__social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+        <header class="main-header">
+            <nav class="main-menu">
+                <div class="main-menu__wrapper">
+                    <div class="main-menu__wrapper-inner">
+                        <div class="main-menu__logo">
+                            <a href="index.html"><img src="assets/images/resources/HRLOGO.svg" alt=""></a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <nav class="main-menu main-menu-three">
-                <div class="main-menu-three__wrapper">
-                    <div class="main-menu-three__wrapper-inner">
-                        <div class="main-menu-three__logo">
-                            <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
-                        </div>
-                        <div class="main-menu-three__main-menu-box">
+                        <div class="main-menu__main-menu-box">
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list">
-                                <li class="dropdown">
-                                    <a href="index.html">Home </a>
-                                    <ul>
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index2.html">Home Two</a></li>
-                                        <li><a href="index3.html">Home Three</a></li>
-                                        <li class="dropdown">
-                                            <a href="#">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header One</a></li>
-                                                <li><a href="index2.html">Header Two</a></li>
-                                                <li><a href="index3.html">Header Three</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+
+                                <li>
+                                    <a href="index.html#idhome">Home</a>
                                 </li>
+                                
                                 <li>
                                     <a href="about.html">About</a>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">Pages</a>
+                                    <a href="index.html#idcaseporto">Portofolio</a>
                                     <ul>
-                                        <li><a href="project.html">Projects</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
+                                        <li><a href="index.html#idprojects">Projects</a></li>
+                                        <li><a href="index.html#idteam">Team</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="content-production.html">Content Production</a></li>
-                                        <li><a href="film-production.html">Film Production</a></li>
-                                        <li><a href="voice-production.html">Voice Production</a></li>
-                                        <li><a href="creative-direction.html">Creative Direction</a></li>
-                                        <li><a href="consultancy.html">Consultancy</a></li>
-                                        <li><a href="song-record.html">Song Record</a></li>
-                                        <li><a href="hunt-talents.html">Hunt Talents</a></li>
-                                        <li><a href="online-support.html">24/7 Online Support</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
+
+                                
                                 <li>
+                                    <a href="index.html#idprogram">Program</a>
+                                </li>
+                                                                <li>
+                                    <a href="index.html#idblog">Blog</a>
+                                </li>
+                                                                <li>
                                     <a href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="main-menu-three__right">
-                            <div class="main-menu-three__nav-sidebar-icon">
+                        <div class="main-menu__right">
+                            <div class="main-menu__nav-sidebar-icon">
                                 <a class="navSidebar-button" href="#"><span class="icon-dots-menu"></span></a>
                             </div>
-                            <div class="main-menu-three__btn-box">
-                                <a href="about.html" class="main-menu-three__btn thm-btn">
+                            <div class="main-menu__btn-box">
+                                <a href="about.html" class="main-menu__btn thm-btn">
                                     <span class="fas fa-long-arrow-alt-right"></span>
                                     let’s Talk</a>
                             </div>
@@ -205,12 +159,12 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg-7.jpg);">
+            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/HEROHR.png);">
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <p>Eston Video Production</p>
-                    <h2>Avenger Details</h2>
+                    <p>Human Reason</p>
+                    <h2>The Minds Behind</h2>
                     <div class="thm-breadcrumb__inner">
                         <ul class="thm-breadcrumb list-unstyled">
                             <li><a href="index.html">Home</a></li>
@@ -222,32 +176,27 @@
             </div>
         </section>
         <!--Page Header End-->
-
-        <!--Team Details Start-->
-        <section class="team-details">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-5">
-                        <div class="team-details__left">
-                            <div class="team-details__img">
-                                <img src="assets/images/team/team-details-img-1.jpg" alt="">
-                            </div>
-                        </div>
+<section class="team-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-5">
+                <div class="team-details__left">
+                    <div class="team-details__img">
+                        <img src="assets/images/team/hiresppprilly.png" alt="">
                     </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="team-details__right">
-                            <div class="team-details__title-box">
-                                <p class="team-details__sub-title">Head Of Idea</p>
-                                <h3 class="team-details__title">Alonso S. Sonlon</h3>
-                                <p class="team-details__text">The Social Network is a 2010 biographical drama film
-                                    directed by David Fincher, which
-                                    portrays the story of how Facebook was created. The movie is based on the book
-                                    "Accidental Billionaires" by Ben Mezrich.</p>
-                            </div>
-                            <div class="team-details__my-skill">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+                <div class="team-details__right">
+                    <div class="team-details__title-box">
+                        <p class="team-details__sub-title">Chief Marketing Officer & Developper</p>
+                        <h3 class="team-details__title">Prillyandini Nurul Hidayah</h3>
+                        <p class="team-details__text">I believe great technology is built with purpose. As a Software Engineer, I specialize in building reliable, scalable, and maintainable web applications. With a strong foundation in software architecture and backend development, I transform ideas into digital products that are functional, efficient, and built to last. By combining technology with creativity, I help bring meaningful digital experiences to life through thoughtful engineering.
+</p>
+                    </div>
+                                                <div class="team-details__my-skill">
                                 <h4>My Skillset</h4>
-                                <p>Designers need to have a creative mindset to generate new and innovative ideas that
-                                    solve problem.</p>
+                                <p>As a Developper.</p>
                                 <div class="team-details__progress">
                                     <div class="team-details__progress-wrap">
                                         <div class="team-details__progress-single">
@@ -255,91 +204,165 @@
                                                 <div class="circle-progress"
                                                     data-options='{ "value": 0.9,"thickness": 6,"emptyFill": "#DBDBDB","lineCap": "square", "size": 126, "fill": { "color": "#C72538" } }'>
                                                 </div><!-- /.circle-progress -->
-                                                <span>75%</span>
+                                                <span>95%</span>
                                             </div>
                                             <div class="team-details__progress-content">
-                                                <h3>Design</h3>
-                                            </div>
-                                        </div>
-                                        <div class="team-details__progress-single">
-                                            <div class="team-details__progress-box">
-                                                <div class="circle-progress"
-                                                    data-options='{ "value": 0.5,"thickness": 6,"emptyFill": "#DBDBDB","lineCap": "square", "size": 126, "fill": { "color": "#C72538" } }'>
-                                                </div><!-- /.circle-progress -->
-                                                <span>50%</span>
-                                            </div><!-- /.about-five__progress-box -->
-                                            <div class="team-details__progress-content">
-                                                <h3>Video Making</h3>
+                                                <h3>Web Application Development</h3>
                                             </div>
                                         </div>
                                         <div class="team-details__progress-single">
                                             <div class="team-details__progress-box">
                                                 <div class="circle-progress"
-                                                    data-options='{ "value": 0.3,"thickness": 6,"emptyFill": "#DBDBDB","lineCap": "square", "size": 126, "fill": { "color": "#C72538" } }'>
+                                                    data-options='{ "value": 0.92,"thickness": 6,"emptyFill": "#DBDBDB","lineCap": "square", "size": 126, "fill": { "color": "#C72538" } }'>
                                                 </div><!-- /.circle-progress -->
-                                                <span>35%</span>
+                                                <span>92%</span>
                                             </div><!-- /.about-five__progress-box -->
                                             <div class="team-details__progress-content">
-                                                <h3>Script Writing</h3>
+                                                <h3>Backend Engineering</h3>
+                                            </div>
+                                        </div>
+                                        <div class="team-details__progress-single">
+                                            <div class="team-details__progress-box">
+                                                <div class="circle-progress"
+                                                    data-options='{ "value": 0.9,"thickness": 6,"emptyFill": "#DBDBDB","lineCap": "square", "size": 126, "fill": { "color": "#C72538" } }'>
+                                                </div><!-- /.circle-progress -->
+                                                <span>90</span>
+                                            </div><!-- /.about-five__progress-box -->
+                                            <div class="team-details__progress-content">
+                                                <h3>System Design</h3>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="team-details__creative">
-                                <h5 class="team-details__creative-title-one">Creative Directions</h5>
-                                <p class="team-details__creative-text">Design skill is the ability to create visual
-                                    and functional solutions to problems or challenges. It involves using creative
-                                    and analytical thinking to identify user needs and goals, and then applying
-                                    design principles and techniques to create effective solutions.</p>
-                                <div class="team-details__creative-content-box">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6 col-md-6">
-                                            <div class="team-details__creative-single">
-                                                <div class="team-details__creative-img">
-                                                    <img src="assets/images/team/team-details-creative-img-1-1.jpg"
-                                                        alt="">
-                                                    <div class="team-details__video-link">
-                                                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ"
-                                                            class="video-popup">
-                                                            <div class="team-details__video-text">
-                                                                <p>Play</p>
-                                                                <i class="ripple"></i>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="team-details__creative-content">
-                                                    <p class="team-details__creative-sub-title">Action, Movie</p>
-                                                    <h4 class="team-details__creative-title"><a
-                                                            href="team-details.html">Mirulano TV Series</a></h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-6">
-                                            <div class="team-details__creative-single">
-                                                <div class="team-details__creative-img">
-                                                    <img src="assets/images/team/team-details-creative-img-1-2.jpg"
-                                                        alt="">
-                                                </div>
-                                                <div class="team-details__creative-content">
-                                                    <p class="team-details__creative-sub-title">Action, Movie</p>
-                                                    <h4 class="team-details__creative-title"><a
-                                                            href="team-details.html">Alzar Action Movie</a></h4>
-                                                </div>
-                                            </div>
-                                        </div>
+                    <div class="team-details__my-skill">
+                        </div>
+                    <div class="team-details__creative">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="faq-one">
+    <div class="container">
+        <div class="row">
+            <div class="project-two__carousel-box">
+                    <div class="project-two__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
+                        "loop": true,
+                        "autoplay": true,
+                        "margin": 105,
+                        "nav": false,
+                        "dots": false,
+                        "smartSpeed": 500,
+                        "autoplayTimeout": 10000,
+                        "navText": ["<span class=\"fas fa-long-arrow-alt-left\"></span>","<span class=\"fas fa-long-arrow-alt-right\"></span>"],
+                        "responsive": {
+                            "0": {
+                                "items": 1
+                            },
+                            "768": {
+                                "items": 1
+                            },
+                            "992": {
+                                "items": 1
+                            },
+                            "1290": {
+                                "items": 1
+                            }
+                        }
+                    }'>
+                        <!--Project Two Single Start-->
+                        <div class="item">
+                            <div class="project-two__single">
+                                <div class="project-two__img-box">
+                                    <div class="project-two__img">
+                                        <img src="assets/images/posterfilm/ataleofwitnessposter.png" alt="">
                                     </div>
+                                    <h3 class="project-two__title"><a href="project-details.html">A Tale Of Witness</a>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
+                        <!--Project Two Single Start-->
+                        <!--Project Two Single Start-->
+                        <div class="item">
+                            <div class="project-two__single">
+                                <div class="project-two__img-box">
+                                    <div class="project-two__img">
+                                        <img src="assets/images/posterfilm/pasisianposter.png" alt="">
+                                    </div>
+                                    <h3 class="project-two__title active"><a href="project-details.html">pasisian : Kicau Parau Dari Timur Kota Bandung</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Project Two Single Start-->
+                        <!--Project Two Single Start-->
+                        <div class="item">
+                            <div class="project-two__single">
+                                <div class="project-two__img-box">
+                                    <div class="project-two__img">
+                                        <img src="assets/images/posterfilm/phaposter.png" alt="">
+                                    </div>
+                                    <h3 class="project-two__title"><a href="project-details.html">Mirulano TV
+                                            Series</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Project Two Single Start-->
+                        <!--Project Two Single Start-->
+                        <div class="item">
+                            <div class="project-two__single">
+                                <div class="project-two__img-box">
+                                    <div class="project-two__img">
+                                        <img src="assets/images/posterfilm/rawabelokposter.png" alt="">
+                                    </div>
+                                    <h3 class="project-two__title"><a href="project-details.html">Rawa Belok</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Project Two Single Start-->
+                        <!--Project Two Single Start-->
+                        <div class="item">
+                            <div class="project-two__single">
+                                <div class="project-two__img-box">
+                                    <div class="project-two__img">
+                                        <img src="assets/images/posterfilm/karmakaraposter.png" alt="">
+                                    </div>
+                                    <h3 class="project-two__title"><a href="project-details.html">Karmakara</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Project Two Single Start-->
+                        <!--Project Two Single Start-->
+                        <div class="item">
+                            <div class="project-two__single">
+                                <div class="project-two__img-box">
+                                    <div class="project-two__img">
+                                        <img src="assets/images/posterfilm/ruwatterrraposter.png" alt="">
+                                    </div>
+                                    <h3 class="project-two__title"><a href="project-details.html">Ruwat Terra</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Project Two Single Start-->
                     </div>
                 </div>
+            
             </div>
-        </section>
-        <!--Team Details End-->
+        </div>
+    </div>
+</section>
 
-        <!--Site Footer Start-->
+         <!--Site Footer Start-->
         <footer class="site-footer">
             <div class="container">
                 <div class="site-footer__top">
@@ -469,11 +492,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@eston.com</a>
+                    <a href="mailto:humanreason31@gmail.com">humanreason31@gmail.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:082337266975">082337266975</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
@@ -537,10 +560,32 @@
     <script src="assets/vendors/hover-animated/tweenMax.min.js"></script>
 
 
-
-
     <!-- template js -->
     <script src="assets/js/eston.js"></script>
+    <script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault(); // 🚫 Mencegah halaman reload saat submit
+
+  const form = e.target;
+  const data = new FormData(form);
+  const url = form.action;
+
+  fetch(url, {
+    method: "POST",
+    body: data
+  })
+  .then(response => response.text())
+  .then(result => {
+    document.querySelector(".result").innerHTML = "<p style='color:green;'>" + result + "</p>";
+    form.reset(); // 🔄 Kosongkan form setelah submit
+  })
+  .catch(error => {
+    console.error("Gagal mengirim:", error);
+    document.querySelector(".result").innerHTML = "<p style='color:red;'>Gagal mengirim data. Coba lagi nanti.</p>";
+  });
+});
+</script>
+
 </body>
 
 </html>
